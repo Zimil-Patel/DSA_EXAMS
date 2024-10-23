@@ -5,6 +5,15 @@
 // Step 4: If value match then return i (postion of value where it found)
 // Step 5: If search value not present in loop return -1 after loop iterations which means element not found
 
+// EXAMPLE
+// arr = 12, 34, 24, 55
+// searchVal = 24
+
+// traverse each element and compare
+// arr[0] -> 12 == 24 // false
+// arr[1] -> 12 == 24 // false
+// arr[2] -> 24 == 24 // true --> return postion value (2)
+
 #include<iostream>
 using namespace std;
 
